@@ -1,11 +1,8 @@
 # TypeScript Compilation Demo
-## Branch: importing-javascript
+## Branch: strict-type-checking
 
-- Add analytics to the Globomantics microsite
-- Exiting analytics SDK is written in JavaScript
-- Try importing JS with allowJS disabled
-	- Will not compile as expected
-- Import the SDK and hook it up to the related component
+- Update TSConfig to stricter configuration
+- Fix errors arising from type checking
 
 ## Usage
 - Install dependencies
