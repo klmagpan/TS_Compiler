@@ -1,17 +1,11 @@
 # TypeScript Compilation Demo
-## Branch: configuring-polling-types
+## Branch: extending-tsconfig-bases
 
-- Configure watch settings with .tsconfig
-	- Apply different watching algorithms and note effect on file watching:
-		- Priority
-		- Dynamic
-		- FS Events
-- Use Environment variables to override code watching settings
-	- Create environment file (.snv)
-	- Add environment variables
-		- TSC_WATCHFILE
+- Add a configuration base to TSConfig
+- Use a total of two configurations as the base for our TSConfig
+- Override property of combined bases
 
-## Usagec
+## Usage
 - Install dependencies
 ```bash
 npm install
