@@ -1,14 +1,17 @@
 # TypeScript Compilation Demo
-## Branch: modifying-application-structure
+## Branch: configuring-polling-types
 
-- The application needs a change in directory structure
-	- Some developers on team can't start app workflow due to OS issues
-- Previous engineer specified custom output directory: aux
-	- Some OS don't allow this directory name
-- A new dev just joined the team - they use a Windows workstation
-	- Change the name of output directory to other logical choice
+- Configure watch settings with .tsconfig
+	- Apply different watching algorithms and note effect on file watching:
+		- Priority
+		- Dynamic
+		- FS Events
+- Use Environment variables to override code watching settings
+	- Create environment file (.snv)
+	- Add environment variables
+		- TSC_WATCHFILE
 
-## Usage
+## Usagec
 - Install dependencies
 ```bash
 npm install

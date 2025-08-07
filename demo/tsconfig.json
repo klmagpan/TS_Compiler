@@ -13,12 +13,16 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx",
     "noEmit": false,
-    "outDir": "dist", // Dist is industry standard for outDir name
-    "declaration": true,
-    "declarationDir": "dec", // omitting declarationDir causes d.ts files in same directory
-    "rootDir": "src"
+    "jsx": "react-jsx",
+    "outDir": "dist",
+    // "watchFile": // Can also add watchFile setting here
+
   },
-  "include": ["src"]
+  "watchOptions": {
+    "watchFile":"dynamicPriorityPolling", // Other options: priorityPollingInterval
+    "watchDirectory": "usefsevents"
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
