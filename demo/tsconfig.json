@@ -13,7 +13,7 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true, // Make sure application can compile on TS w/out doing so 
+    "noEmit": false,
     "outDir": "dist",
     "jsx": "react-jsx"
   },
