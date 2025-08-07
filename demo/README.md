@@ -5,7 +5,8 @@
 - Exiting analytics SDK is written in JavaScript
 - Try importing JS with allowJS disabled
 	- Will not compile as expected
-	
+- Import the SDK and hook it up to the related component
+
 ## Usage
 - Install dependencies
 ```bash
