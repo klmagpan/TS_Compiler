@@ -1,10 +1,11 @@
 # TypeScript Compilation Demo
-## Branch: extending-tsconfig-bases
+## Branch: importing-javascript
 
-- Add a configuration base to TSConfig
-- Use a total of two configurations as the base for our TSConfig
-- Override property of combined bases
-
+- Add analytics to the Globomantics microsite
+- Exiting analytics SDK is written in JavaScript
+- Try importing JS with allowJS disabled
+	- Will not compile as expected
+	
 ## Usage
 - Install dependencies
 ```bash
