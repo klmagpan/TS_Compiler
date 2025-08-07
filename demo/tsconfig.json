@@ -13,7 +13,7 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": false,
+    "noEmit": true, // Calling --watch will not output files, --> use vite
     "outDir": "dist",
     "jsx": "react-jsx"
   },
