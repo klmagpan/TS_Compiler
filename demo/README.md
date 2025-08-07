@@ -1,5 +1,11 @@
 # TypeScript Compilation Demo
 
+## Branch: compiling-the-demo-application
+
+- Invoke the TypeScript build command
+    - TSC will generate JS files
+- Inspect generated JS files
+    
 ## Usage
 - Install dependencies
 ```bash
