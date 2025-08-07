@@ -9,7 +9,7 @@ export const Splash = ({
   <Layout handleLogin={handleLogin}>
     <div className="splash">
       <h1>
-        Globomantics (A Truly Excellent Company!)
+        Globomantics
       </h1>
       <h3>
         Connecting creativity with solutions.
