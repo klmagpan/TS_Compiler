@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib":["ES2022","dom"],
+    "outDir": "dist",
+    "composite": true, // Composite objects may not disable declaration emit
+    "rootDir": "src",
+    // "declaration": false, // Would throw an error and not be able to make a new file
+    "declaration": true,
+    "declarationDir": "dist"
+  },
+  "include": ["src"]
+  
+}

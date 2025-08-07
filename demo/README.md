@@ -1,9 +1,13 @@
 # TypeScript Compilation Demo
-## Branch: strict-type-checking
+## Branch: composite-projects
 
-- Update TSConfig to stricter configuration
-- Fix errors arising from type checking
-
+- Inspect the ticket price subprojet
+	- Enable composite settings
+- Import the service w/in the app's main component
+- Utilize the output of the service when rendering the view
+- Note the behavior of the build process with composite projects enabled
+	- Build will occur incrementally
+	
 ## Usage
 - Install dependencies
 ```bash
