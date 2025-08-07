@@ -1,4 +1,6 @@
 // IMPORTANT: Keep it simple!
+// Commenting out the branch and extending the builds
+// Allow for a less complex TS configuration file
 {
   "compilerOptions": {
     // "target": "ESNext",
