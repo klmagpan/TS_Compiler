@@ -15,9 +15,9 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "noEmit": false,
-    "outDir": "aux",
+    "outDir": "dist", // Dist is industry standard for outDir name
     "declaration": true,
-    "declarationDir": "dec",
+    "declarationDir": "dec", // omitting declarationDir causes d.ts files in same directory
     "rootDir": "src"
   },
   "include": ["src"]
